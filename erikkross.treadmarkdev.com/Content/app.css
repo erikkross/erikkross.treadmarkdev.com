@@ -1,0 +1,39 @@
+/* Foundation v2.2.1 http://foundation.zurb.com */
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+ul.navigation { list-style: none; margin: 12px 0 0;}
+ul.navigation  li { display: inline; }
+ul.navigation li a { padding: 0 1em 0 0; 
+                     font-family: 'Droid Sans',sans-serif; 
+                     font-size:1.2em;
+                     color:#fff;}
+.header { background-color:#213f52; } 
+h2 { font-family:'Droid Sans',sans-serif; font-weight:700; font-size:2.5em;}
+h2 a { color:#fff; }
+
+.footer { background-color:#417081;}
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+

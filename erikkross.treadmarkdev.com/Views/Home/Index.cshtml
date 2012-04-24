@@ -1,0 +1,77 @@
+﻿@if (false) {<script src="/Scripts/jquery-1.7.2-vsdoc.js" type="text/javascript" />}
+
+@{
+    ViewBag.Title = "Erikk Ross - Web Developer and Programmer";
+}
+
+
+<div id="page">
+    <div id="home">
+        <h3>Web Developer and Programmer</h3>
+        <p>I specialize in data driven web applications using a variety of technologies including ASP.NET, SQL Server, jQuery, Ajax, PHP, MySQL and more.</p>
+
+        <h3>Featured Work</h3>
+        <p>
+
+        </p>
+    </div>
+
+    <div id="work" class="hide">
+        <h3>Work</h3>
+        <p>My work goes here.</p>
+    </div>
+    
+    <div id="about" class="hide">
+        <h3>About Me</h3>
+        <p></p>
+    </div>
+
+    <div id="contact" class="hide">
+        <h3>Contact Me</h3>
+        <p>Please use the form below to contact me. </p>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        //        $.ajax({
+        //            url: '/Home/TestJson/',
+        //            type: 'POST',
+        //            dataType: 'json',
+        //            success: function (data) {
+        //                //Process data
+        //                console.log(data);
+        //            },
+        //            error: function (error) { }
+        //        }); //end ajax
+
+
+
+    });  //end ready
+
+    function PortfolioViewModel() {
+        var self = this;
+        self.sections = ["Work", "About", "Contact"];
+        self.chosenSectionId = ko.observable();
+
+        //Behaviours
+        self.goToSection = function (section) {
+            location.hash = section
+        };
+    }
+
+    ko.applyBindings(new PortfolioViewModel());
+
+</script>
+
